@@ -1,0 +1,27 @@
+{
+  "rows": [
+    { "train_number": 52, "run_id": 1, "direction": 0, "time": "06:10" },
+    { "train_number": 52, "run_id": 2, "direction": 0, "time": "07:05" },
+    { "train_number": 52, "run_id": 3, "direction": 0, "time": "08:00" },
+    { "train_number": 52, "run_id": 4, "direction": 0, "time": "09:00" },
+    { "train_number": 52, "run_id": 5, "direction": 0, "time": "10:10" },
+    { "train_number": 52, "run_id": 6, "direction": 0, "time": "11:20" },
+
+    { "train_number": 52, "run_id": 1, "direction": 1, "time": "06:40" },
+    { "train_number": 52, "run_id": 2, "direction": 1, "time": "07:35" },
+    { "train_number": 52, "run_id": 3, "direction": 1, "time": "08:30" },
+    { "train_number": 52, "run_id": 4, "direction": 1, "time": "09:35" },
+    { "train_number": 52, "run_id": 5, "direction": 1, "time": "10:45" },
+    { "train_number": 52, "run_id": 6, "direction": 1, "time": "11:55" },
+
+    { "train_number": 41, "run_id": 1, "direction": 0, "time": "06:20" },
+    { "train_number": 41, "run_id": 2, "direction": 0, "time": "07:20" },
+    { "train_number": 41, "run_id": 3, "direction": 0, "time": "08:20" },
+    { "train_number": 41, "run_id": 4, "direction": 0, "time": "09:20" },
+
+    { "train_number": 41, "run_id": 1, "direction": 1, "time": "06:50" },
+    { "train_number": 41, "run_id": 2, "direction": 1, "time": "07:50" },
+    { "train_number": 41, "run_id": 3, "direction": 1, "time": "08:50" },
+    { "train_number": 41, "run_id": 4, "direction": 1, "time": "09:50" }
+  ]
+}
