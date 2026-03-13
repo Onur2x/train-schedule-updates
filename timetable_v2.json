@@ -1,38 +1,4802 @@
 {
-  "timetable_groups": [
-    { "id": 1, "ttadi": "Hafta Ici" },
-    { "id": 2, "ttadi": "Hafta Sonu" }
+  "timetable_groups" : [
+    {
+      "id" : 1,
+      "ttadi" : "Hafta Ici"
+    },
+    {
+      "id" : 2,
+      "ttadi" : "Hafta Sonu"
+    }
   ],
-  "rows": [
-    { "ttid": 1, "gorevno": 52, "run": 1, "yon": 0, "saat": "06:10" },
-    { "ttid": 1, "gorevno": 52, "run": 2, "yon": 0, "saat": "07:05" },
-    { "ttid": 1, "gorevno": 52, "run": 3, "yon": 0, "saat": "08:00" },
-    { "ttid": 1, "gorevno": 52, "run": 4, "yon": 0, "saat": "09:00" },
-    { "ttid": 1, "gorevno": 52, "run": 5, "yon": 0, "saat": "10:10" },
-    { "ttid": 1, "gorevno": 52, "run": 6, "yon": 0, "saat": "11:20" },
-
-    { "ttid": 1, "gorevno": 52, "run": 1, "yon": 1, "saat": "06:40" },
-    { "ttid": 1, "gorevno": 52, "run": 2, "yon": 1, "saat": "07:35" },
-    { "ttid": 1, "gorevno": 52, "run": 3, "yon": 1, "saat": "08:30" },
-    { "ttid": 1, "gorevno": 52, "run": 4, "yon": 1, "saat": "09:35" },
-    { "ttid": 1, "gorevno": 52, "run": 5, "yon": 1, "saat": "10:45" },
-    { "ttid": 1, "gorevno": 52, "run": 6, "yon": 1, "saat": "11:55" },
-
-    { "ttid": 2, "gorevno": 52, "run": 1, "yon": 0, "saat": "07:00" },
-    { "ttid": 2, "gorevno": 52, "run": 2, "yon": 0, "saat": "08:00" },
-    { "ttid": 2, "gorevno": 52, "run": 3, "yon": 0, "saat": "09:00" },
-    { "ttid": 2, "gorevno": 52, "run": 1, "yon": 1, "saat": "07:35" },
-    { "ttid": 2, "gorevno": 52, "run": 2, "yon": 1, "saat": "08:35" },
-    { "ttid": 2, "gorevno": 52, "run": 3, "yon": 1, "saat": "09:35" },
-
-    { "ttid": 1, "gorevno": 41, "run": 1, "yon": 0, "saat": "06:20" },
-    { "ttid": 1, "gorevno": 41, "run": 2, "yon": 0, "saat": "07:20" },
-    { "ttid": 1, "gorevno": 41, "run": 3, "yon": 0, "saat": "08:20" },
-    { "ttid": 1, "gorevno": 41, "run": 4, "yon": 0, "saat": "09:20" },
-
-    { "ttid": 1, "gorevno": 41, "run": 1, "yon": 1, "saat": "06:50" },
-    { "ttid": 1, "gorevno": 41, "run": 2, "yon": 1, "saat": "07:50" },
-    { "ttid": 1, "gorevno": 41, "run": 3, "yon": 1, "saat": "08:50" },
-    { "ttid": 1, "gorevno": 41, "run": 4, "yon": 1, "saat": "09:50" }
+  "rows" : [
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "06:00:00"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "06:26:45"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "7",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "06:08:29"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "7",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "06:35:14"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "06:16:58"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "06:43:43"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "06:25:27"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "06:52:12"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "3",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "06:33:56"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "3",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "07:00:41"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "4",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "06:42:25"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "4",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "07:09:10"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "5",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "06:50:54"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "5",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "07:17:39"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "06:59:23"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "07:26:08"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "07:07:52"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "07:34:37"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "7",
+      "run" : "7",
+      "yon" : 0,
+      "saat" : "07:15:08"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "7",
+      "run" : "7",
+      "yon" : 1,
+      "saat" : "07:41:53"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "07:22:24"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "07:49:09"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "07:29:40"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "07:56:25"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "07:36:56"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "08:03:41"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "3",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "07:44:12"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "3",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "08:10:57"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "4",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "07:51:28"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "4",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "08:18:13"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "23",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "07:58:44"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "23",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "08:25:29"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "5",
+      "run" : "7",
+      "yon" : 0,
+      "saat" : "08:06:00"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "5",
+      "run" : "7",
+      "yon" : 1,
+      "saat" : "08:32:45"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "08:13:16"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "08:40:01"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "08:20:32"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "08:47:17"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "7",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "08:27:48"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "7",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "08:54:33"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "08:35:04"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "09:01:49"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "08:45:15"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "09:12:00"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "08:55:26"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "09:22:11"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "3",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "09:05:37"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "3",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "09:32:22"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "4",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "09:15:48"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "4",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "09:42:33"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "23",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "09:25:59"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "23",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "09:52:44"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "5",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "09:36:10"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "5",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "10:02:55"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "09:46:21"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "10:13:06"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "09:56:32"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "10:23:17"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "7",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "10:06:43"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "7",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "10:33:28"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "10:16:54"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "10:43:39"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "10:27:05"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "10:53:50"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "10:37:16"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "11:04:01"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "3",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "10:47:27"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "3",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "11:14:12"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "4",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "10:57:38"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "4",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "11:24:23"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "23",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "11:07:49"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "23",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "11:34:34"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "5",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "11:18:00"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "5",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "11:44:45"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "11:28:11"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "11:54:56"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "11:38:22"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "12:05:07"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "11:48:33"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "12:15:18"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "11:58:44"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "12:25:29"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "7",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "12:08:55"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "7",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "12:35:40"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "3",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "12:19:06"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "3",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "12:45:51"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "4",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "12:29:17"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "4",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "12:56:02"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "5",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "12:39:28"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "5",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "13:06:13"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "12:49:39"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "6",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "13:16:24"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "12:59:50"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "1",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "13:26:35"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "13:10:01"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "2",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "13:36:46"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "13:20:12"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "13:46:57"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "13:30:23"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "13:57:08"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "23",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "13:40:34"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "23",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "14:07:19"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "13:50:45"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "14:17:30"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "14:00:56"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "14:27:41"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "14:11:07"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "14:37:52"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "14:21:18"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "14:48:03"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "14:31:29"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "14:58:14"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "14:41:40"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "15:08:25"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "23",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "14:51:51"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "23",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "15:18:36"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "15:02:02"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "21",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "15:28:47"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "15:12:13"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "15:38:58"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "15:22:24"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "15:49:09"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "15:32:35"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "22",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "15:59:20"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "15:42:46"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "16:09:31"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "15:52:57"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "16:19:42"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "16:03:08"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "16:29:53"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "8",
+      "yon" : 0,
+      "saat" : "16:10:24"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "8",
+      "yon" : 1,
+      "saat" : "16:37:09"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "16:17:40"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "16:44:25"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "16:24:56"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "16:51:41"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "9",
+      "yon" : 0,
+      "saat" : "16:32:12"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "9",
+      "yon" : 1,
+      "saat" : "16:58:57"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "16:39:28"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "17:06:13"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "16:46:44"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "17:13:29"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "16:54:00"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "17:20:45"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "8",
+      "yon" : 0,
+      "saat" : "17:01:16"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "8",
+      "yon" : 1,
+      "saat" : "17:28:01"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "57",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "17:08:32"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "57",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "17:35:17"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "17:15:48"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "17:42:33"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "9",
+      "yon" : 0,
+      "saat" : "17:23:04"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "9",
+      "yon" : 1,
+      "saat" : "17:49:49"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "17:30:20"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "17:57:05"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "17:37:36"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "18:04:21"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "17:44:52"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "18:11:37"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "8",
+      "yon" : 0,
+      "saat" : "17:52:08"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "8",
+      "yon" : 1,
+      "saat" : "18:18:53"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "17:59:24"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "18:26:09"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "18:06:40"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "18:33:25"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "9",
+      "yon" : 0,
+      "saat" : "18:13:56"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "9",
+      "yon" : 1,
+      "saat" : "18:40:41"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "18:21:12"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "18:47:57"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "57",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "18:28:28"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "57",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "18:55:13"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "18:35:44"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "19:02:29"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "8",
+      "yon" : 0,
+      "saat" : "18:43:00"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "8",
+      "yon" : 1,
+      "saat" : "19:09:45"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "18:50:16"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "19:17:01"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "18:57:32"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "19:24:17"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "9",
+      "yon" : 0,
+      "saat" : "19:04:48"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "9",
+      "yon" : 1,
+      "saat" : "19:31:33"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "19:12:04"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "19:38:49"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "19:19:20"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "19:46:05"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "19:26:36"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "19:53:21"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "8",
+      "yon" : 0,
+      "saat" : "19:33:52"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "8",
+      "yon" : 1,
+      "saat" : "20:00:37"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "19:41:08"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "20:07:53"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "57",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "19:51:19"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "57",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "20:18:04"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "9",
+      "yon" : 0,
+      "saat" : "20:01:30"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "9",
+      "yon" : 1,
+      "saat" : "20:28:15"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "20:11:41"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "20:38:26"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "20:21:52"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "20:48:37"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "20:32:03"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "72",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "20:58:48"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "20:42:14"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "21:08:59"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "9",
+      "yon" : 0,
+      "saat" : "20:52:25"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "73",
+      "run" : "9",
+      "yon" : 1,
+      "saat" : "21:19:10"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "21:02:36"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "21:29:21"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "21:12:47"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "71",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "21:39:32"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "21:22:58"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "21:49:43"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "21:33:09"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "74",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "21:59:54"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "57",
+      "run" : "9",
+      "yon" : 0,
+      "saat" : "21:43:20"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "57",
+      "run" : "9",
+      "yon" : 1,
+      "saat" : "22:10:05"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "21:53:31"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "22:20:16"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "22:03:42"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "22:30:27"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "22:13:53"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "22:40:38"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "22:24:04"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "22:50:49"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "9",
+      "yon" : 0,
+      "saat" : "22:34:15"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "9",
+      "yon" : 1,
+      "saat" : "23:01:00"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "22:44:26"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "23:11:11"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "57",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "22:54:37"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "57",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "23:21:22"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "23:04:48"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "51",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "23:31:33"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "23:14:59"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "52",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "23:41:44"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "9",
+      "yon" : 0,
+      "saat" : "23:25:10"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "53",
+      "run" : "9",
+      "yon" : 1,
+      "saat" : "23:51:55"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "23:35:21"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "54",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "23:59:59"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "55",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "23:45:37"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "",
+      "run" : "",
+      "yon" : 1,
+      "saat" : ""
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "56",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "23:59:59"
+    },
+    {
+      "ttid" : 1,
+      "gorevno" : "",
+      "run" : "",
+      "yon" : 1,
+      "saat" : ""
+    },
+	{
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "06:00:00"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "06:26:45"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "106",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "06:10:11"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "106",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "06:36:56"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "101",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "06:20:22"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "101",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "06:47:07"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "102",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "06:30:33"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "102",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "06:57:18"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "103",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "06:40:44"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "103",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "07:07:29"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "104",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "06:50:55"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "104",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "07:17:40"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "07:01:06"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "07:27:51"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "07:11:17"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "07:38:02"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "106",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "07:21:28"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "106",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "07:48:13"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "07:31:39"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "07:58:24"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "07:41:50"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "08:08:35"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "101",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "07:52:01"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "101",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "08:18:46"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "102",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "08:02:12"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "102",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "08:28:57"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "103",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "08:12:23"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "103",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "08:39:08"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "104",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "08:22:34"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "104",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "08:49:19"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "08:32:45"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "08:59:30"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "08:42:56"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "09:09:41"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "106",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "08:53:07"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "106",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "09:19:52"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "09:03:18"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "09:30:03"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "101",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "09:13:29"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "101",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "09:40:14"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "09:23:40"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "09:50:25"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "102",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "09:33:51"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "102",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "10:00:36"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "103",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "09:44:02"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "103",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "10:10:47"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "104",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "09:54:13"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "104",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "10:20:58"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "10:04:24"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "10:31:09"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "10:14:35"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "10:41:20"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "106",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "10:24:46"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "106",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "10:51:31"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "101",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "10:34:57"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "101",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "11:01:42"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "10:45:08"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "11:11:53"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "10:55:19"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "11:22:04"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "102",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "11:05:30"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "102",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "11:32:15"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "103",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "11:15:41"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "103",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "11:42:26"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "104",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "11:25:52"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "104",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "11:52:37"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "11:36:03"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "12:02:48"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "11:46:14"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "12:12:59"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "106",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "11:56:25"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "106",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "12:23:10"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "101",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "12:06:36"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "101",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "12:33:21"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "12:16:47"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "12:43:32"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "12:26:58"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "12:53:43"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "102",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "12:37:09"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "102",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "13:03:54"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "103",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "12:47:20"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "103",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "13:14:05"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "104",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "12:57:31"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "104",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "13:24:16"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "13:07:42"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "105",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "13:34:27"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "13:16:11"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "13:42:56"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "13:24:40"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "13:51:25"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "13:33:09"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "13:59:54"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "13:41:38"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "14:08:23"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "13:50:07"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "14:16:52"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "13:58:36"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "14:25:21"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "14:07:05"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "14:33:50"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "14:15:34"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "14:42:19"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "14:24:03"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "14:50:48"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "14:32:32"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "14:59:17"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "14:41:01"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "15:07:46"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "14:49:30"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "15:16:15"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "14:57:59"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "15:24:44"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "15:06:28"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "121",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "15:33:13"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "15:14:57"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "122",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "15:41:42"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "15:23:26"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "123",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "15:50:11"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "15:31:55"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "15:58:40"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "15:40:24"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "16:07:09"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "15:48:53"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "16:15:38"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "15:57:22"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "16:24:07"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "16:05:51"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "16:32:36"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "16:14:20"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "16:41:05"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "16:22:49"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "16:49:34"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "16:31:18"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "16:58:03"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "16:39:47"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "17:06:32"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "16:48:16"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "17:15:01"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "16:56:45"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "17:23:30"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "17:05:14"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "17:31:59"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "17:13:43"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "17:40:28"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "17:22:12"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "17:48:57"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "17:30:41"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "17:57:26"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "17:39:10"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "18:05:55"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "17:47:39"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "18:14:24"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "17:56:08"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "18:22:53"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "18:04:37"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "18:31:22"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "18:13:06"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "18:39:51"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "18:21:35"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "18:48:20"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "18:30:04"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "18:56:49"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "18:38:33"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "19:05:18"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "18:47:02"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "19:13:47"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "18:55:31"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "19:22:16"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "19:04:00"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "19:30:45"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "19:12:29"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "19:39:14"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "19:20:58"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "19:47:43"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "19:29:27"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "19:56:12"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "19:37:56"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "20:04:41"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "19:46:25"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "20:13:10"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "19:54:54"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "20:21:39"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "20:05:05"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "171",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "20:31:50"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "20:15:16"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "172",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "20:42:01"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "20:25:27"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "20:52:12"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "20:35:38"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "173",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "21:02:23"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "20:45:49"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "174",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "21:12:34"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "20:56:00"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "21:22:45"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "21:06:11"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "21:32:56"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "21:16:22"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "21:43:07"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "21:26:33"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "21:53:18"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "21:36:44"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "22:03:29"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "21:46:55"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "22:13:40"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "21:57:06"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "175",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "22:23:51"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "22:07:17"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "22:34:02"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "22:17:28"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "22:44:13"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "22:27:39"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "22:54:24"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "22:37:50"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "23:04:35"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "22:48:01"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "23:14:46"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "22:58:12"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "23:24:57"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "23:08:23"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "151",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "23:35:08"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "23:18:34"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "152",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "23:45:19"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "6",
+      "yon" : 0,
+      "saat" : "23:28:50"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "153",
+      "run" : "6",
+      "yon" : 1,
+      "saat" : "00:00:00"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "154",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "23:39:01"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "",
+      "run" : "",
+      "yon" : 1,
+      "saat" : ""
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "155",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "23:49:12"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "",
+      "run" : "",
+      "yon" : 1,
+      "saat" : ""
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "156",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "00:00:00"
+    },
+    {
+      "ttid" : 2,
+      "gorevno" : "",
+      "run" : "",
+      "yon" : 1,
+      "saat" : ""
+    },
+	 {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "06:00:00"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "06:26:45"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "206",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "06:10:11"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "206",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "06:36:56"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "201",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "06:20:22"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "201",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "06:47:07"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "202",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "06:30:33"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "202",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "06:57:18"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "203",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "06:40:44"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "203",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "07:07:29"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "204",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "06:50:55"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "204",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "07:17:40"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "07:01:06"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "07:27:51"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "07:11:17"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "07:38:02"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "206",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "07:21:28"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "206",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "07:48:13"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "07:31:39"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "07:58:24"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "07:41:50"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "08:08:35"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "201",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "07:52:01"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "201",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "08:18:46"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "202",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "08:02:12"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "202",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "08:28:57"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "203",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "08:12:23"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "203",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "08:39:08"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "204",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "08:22:34"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "204",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "08:49:19"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "08:32:45"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "08:59:30"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "08:42:56"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "09:09:41"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "206",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "08:53:07"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "206",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "09:19:52"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "09:03:18"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "09:30:03"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "09:13:29"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "09:40:14"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "201",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "09:23:40"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "201",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "09:50:25"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "202",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "09:33:51"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "202",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "10:00:36"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "203",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "09:44:02"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "203",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "10:10:47"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "204",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "09:54:13"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "204",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "10:20:58"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "10:04:24"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "10:31:09"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "10:14:35"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "10:41:20"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "206",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "10:24:46"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "206",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "10:51:31"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "10:34:57"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "11:01:42"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "10:45:08"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "11:11:53"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "201",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "10:55:19"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "201",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "11:22:04"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "202",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "11:05:30"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "202",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "11:32:15"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "203",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "11:15:41"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "203",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "11:42:26"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "204",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "11:25:52"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "204",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "11:52:37"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "11:36:03"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "12:02:48"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "11:46:14"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "12:12:59"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "206",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "11:56:25"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "206",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "12:23:10"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "12:06:36"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "12:33:21"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "12:16:47"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "12:43:32"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "201",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "12:26:58"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "201",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "12:53:43"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "202",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "12:37:09"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "202",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "13:03:54"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "203",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "12:47:20"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "203",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "13:14:05"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "204",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "12:57:31"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "204",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "13:24:16"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "13:07:42"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "205",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "13:34:27"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "13:17:53"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "13:44:38"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "13:28:04"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "13:54:49"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "13:38:15"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "14:05:00"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "13:48:26"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "14:15:11"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "13:58:37"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "14:25:22"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "14:08:48"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "14:35:33"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "14:18:59"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "14:45:44"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "14:29:10"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "14:55:55"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "14:39:21"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "15:06:06"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "14:49:32"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "15:16:17"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "14:59:43"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "221",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "15:26:28"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "15:09:54"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "222",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "15:36:39"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "15:20:05"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "15:46:50"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "15:30:16"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "223",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "15:57:01"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "15:40:27"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "16:07:12"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "15:50:38"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "16:17:23"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "16:00:49"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "16:27:34"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "16:11:00"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "16:37:45"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "16:21:11"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "16:47:56"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "16:31:22"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "16:58:07"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "16:41:33"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "17:08:18"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "16:51:44"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "17:18:29"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "255",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "17:01:55"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "255",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "17:28:40"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "256",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "17:12:06"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "256",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "17:38:51"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "17:22:17"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "17:49:02"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "17:32:28"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "17:59:13"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "17:42:39"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "18:09:24"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "17:52:50"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "18:19:35"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "18:03:01"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "18:29:46"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "18:13:12"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "18:39:57"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "18:23:23"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "18:50:08"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "18:33:34"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "19:00:19"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "255",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "18:43:45"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "255",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "19:10:30"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "256",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "18:53:56"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "256",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "19:20:41"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "19:04:07"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "19:30:52"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "19:14:18"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "19:41:03"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "19:24:29"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "19:51:14"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "19:34:40"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "20:01:25"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "19:44:51"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "20:11:36"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "19:55:02"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "20:21:47"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "20:05:13"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "20:31:58"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "20:15:24"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "20:42:09"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "255",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "20:25:35"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "255",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "20:52:20"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "256",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "20:35:46"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "256",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "21:02:31"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "20:45:57"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "271",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "21:12:42"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "20:56:08"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "272",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "21:22:53"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "21:06:19"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "21:33:04"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "21:16:30"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "21:43:15"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "21:26:41"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "21:53:26"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "21:36:52"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "273",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "22:03:37"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "21:47:03"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "22:13:48"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "21:57:14"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "274",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "22:23:59"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "255",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "22:07:25"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "255",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "22:34:10"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "256",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "22:17:36"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "256",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "22:44:21"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "22:27:47"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "22:54:32"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "22:37:58"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "23:04:43"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "22:48:09"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "5",
+      "yon" : 1,
+      "saat" : "23:14:54"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "22:58:20"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "1",
+      "yon" : 1,
+      "saat" : "23:25:05"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "255",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "23:08:31"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "255",
+      "run" : "2",
+      "yon" : 1,
+      "saat" : "23:35:16"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "256",
+      "run" : "3",
+      "yon" : 0,
+      "saat" : "23:18:42"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "256",
+      "run" : "3",
+      "yon" : 1,
+      "saat" : "23:45:27"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "4",
+      "yon" : 0,
+      "saat" : "23:28:58"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "251",
+      "run" : "4",
+      "yon" : 1,
+      "saat" : "00:00:05"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "252",
+      "run" : "5",
+      "yon" : 0,
+      "saat" : "23:39:09"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "",
+      "run" : "",
+      "yon" : 1,
+      "saat" : ""
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "253",
+      "run" : "1",
+      "yon" : 0,
+      "saat" : "23:49:20"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "",
+      "run" : "",
+      "yon" : 1,
+      "saat" : ""
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "254",
+      "run" : "2",
+      "yon" : 0,
+      "saat" : "23:59:31"
+    },
+    {
+      "ttid" : 3,
+      "gorevno" : "",
+      "run" : "",
+      "yon" : 1,
+      "saat" : ""
+    }	
   ]
 }
