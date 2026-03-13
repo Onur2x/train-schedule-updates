@@ -3,5 +3,5 @@
   "minimumRequiredVersionCode": 1,
   "appUpdateUrl": "https://github.com/Onur2x/train-schedule-app/releases/download/v1.0.0/app-release.apk",
   "latestDataVersion": 2,
-  "timetableUrl": "https://raw.githubusercontent.com/Onur2x/train-schedule-updates/main/timetable_v1.json"
+  "timetableUrl": "https://raw.githubusercontent.com/Onur2x/train-schedule-updates/main/timetable_v2.json"
 }
