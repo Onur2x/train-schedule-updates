@@ -1671,8 +1671,8 @@
     },
     {
       "ttid" : 1,
-      "gorevno" : "",
-      "run" : "",
+      "gorevno" : "0",
+      "run" : "3",
       "yon" : 1,
       "saat" : ""
     },
@@ -1685,8 +1685,8 @@
     },
     {
       "ttid" : 1,
-      "gorevno" : "",
-      "run" : "",
+      "gorevno" : "0",
+      "run" : "3",
       "yon" : 1,
       "saat" : ""
     },
@@ -3267,8 +3267,8 @@
     },
     {
       "ttid" : 2,
-      "gorevno" : "",
-      "run" : "",
+      "gorevno" : "0",
+      "run" : "3",
       "yon" : 1,
       "saat" : ""
     },
@@ -3281,8 +3281,8 @@
     },
     {
       "ttid" : 2,
-      "gorevno" : "",
-      "run" : "",
+      "gorevno" : "0",
+      "run" : "3",
       "yon" : 1,
       "saat" : ""
     },
@@ -3295,8 +3295,8 @@
     },
     {
       "ttid" : 2,
-      "gorevno" : "",
-      "run" : "",
+      "gorevno" : "0",
+      "run" : "3",
       "yon" : 1,
       "saat" : ""
     },
@@ -4765,8 +4765,8 @@
     },
     {
       "ttid" : 3,
-      "gorevno" : "",
-      "run" : "",
+      "gorevno" : "0",
+      "run" : "3",
       "yon" : 1,
       "saat" : ""
     },
@@ -4779,8 +4779,8 @@
     },
     {
       "ttid" : 3,
-      "gorevno" : "",
-      "run" : "",
+      "gorevno" : "0",
+      "run" : "3",
       "yon" : 1,
       "saat" : ""
     },
@@ -4793,8 +4793,8 @@
     },
     {
       "ttid" : 3,
-      "gorevno" : "",
-      "run" : "",
+      "gorevno" : "0",
+      "run" : "3",
       "yon" : 1,
       "saat" : ""
     }	
